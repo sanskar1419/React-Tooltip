@@ -1,38 +1,52 @@
 import styles from "./PositionForm.module.css";
 
-function PositionForm() {
+function PositionForm({ handlePositionInput }) {
   return (
     <div className={styles.formContainer}>
       <span>Select Tooltip Position</span>
       <div className={styles.radioContainer}>
-        <div className={styles.inputElement}>
-          <input
-            type="radio" /* value="men" onChange={handleCategoryChange} */
-          />
-          <label> Top </label>
-        </div>
-        <div className={styles.inputElement}>
+        <div>
           <input
             type="radio"
-            /*  value="women"
-            onChange={handleCategoryChange} */
+            id="top"
+            name="position"
+            value="top"
+            onChange={handlePositionInput}
           />
-          <label> Right </label>
+          <label for="top">Top</label>
         </div>
-        <div className={styles.inputElement}>
+
+        <div>
           <input
             type="radio"
-            /* value="kid" onChange={handleCategoryChange} */ checked
+            id="right"
+            name="position"
+            value="right"
+            onChange={handlePositionInput}
           />
-          <label> Bottom </label>
+          <label for="right">Right</label>
         </div>
-        <div className={styles.inputElement}>
+
+        <div>
           <input
             type="radio"
-            /*    value="electronics"
-            onChange={handleCategoryChange} */
+            id="bottom"
+            name="position"
+            value="bottom"
+            onChange={handlePositionInput}
           />
-          <label> Left </label>
+          <label for="bottom">Bottom</label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            id="left"
+            name="position"
+            value="left"
+            onChange={handlePositionInput}
+          />
+          <label for="left">Left</label>
         </div>
       </div>
     </div>

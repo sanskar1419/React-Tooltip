@@ -9,3 +9,8 @@
   font-weight: 900;
   font-size: 2.8rem;
 }
+
+input[type="radio"] {
+  transform: scale(2);
+  margin-right: 15px;
+}

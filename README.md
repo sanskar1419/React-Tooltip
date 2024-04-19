@@ -7,7 +7,7 @@ A simple tooltip component such that when I hover over a button it shows me a to
 To view the web application go to this link
 
 ```bash
- https://busy-q5bhxcchz-sanskar-guptas-projects.vercel.app
+ https://react-tooltip-a67kz1s3u-sanskar-guptas-projects.vercel.app
 ```
 
 ## Tech Stack

@@ -1,5 +1,5 @@
+/* Form container styling */
 .formContainer {
-  /* border: 2px solid black; */
   padding: 10px;
   display: flex;
   align-items: center;
@@ -12,16 +12,18 @@
   font-size: 1.3rem;
 }
 
+/* Radio container Styling */
 .radioContainer {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   flex-direction: column;
 }
+
+/* Common styling to all input element inside radioContainer */
 .radioContainer input {
   font-size: 4rem;
-  /* font-weight: bold; */
 }
+
+/* Common styling to all label element inside radioContainer */
 .radioContainer label {
   font-weight: 600;
   font-size: 1.2rem;

@@ -1,3 +1,4 @@
+/* Styling for page container */
 .container {
   display: flex;
   align-items: center;
@@ -10,22 +11,25 @@
   font-size: 2.8rem;
 }
 
+/* Common styling for radio button */
 input[type="radio"] {
   transform: scale(2);
   margin-right: 15px;
   cursor: pointer;
 }
 
+/* Styling for Tooltip and hover element container */
 .hoverElementAddTooltipContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   /* border: 2px solid black; */
   width: 90%;
-  height: 45vh;
+  height: 50vh;
   margin-top: 20px;
 }
 
+/* Hover Element Styling */
 .hoverElement {
   color: white;
   background: linear-gradient(45deg, rgb(5, 5, 62), rgb(13, 13, 64));

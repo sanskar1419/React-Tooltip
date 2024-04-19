@@ -127,11 +127,14 @@
   right: -25px;
 }
 
+/* Position Styling */
 .position {
   font-weight: 700;
   color: orange;
   text-transform: uppercase;
 }
+
+/* Animations(SlideIn) */
 
 @keyframes slide-in-out-right {
   10% {

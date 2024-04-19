@@ -1,7 +1,11 @@
+/* Importing Styles */
 import "./Tooltip.css";
 
+/* Defining functional component for Tooltip */
 function Tooltip({ position }) {
+  /* Returning the JSX */
   return (
+    /* Applying style based on position */
     <div className={`${position}`}>
       <span>Wonderful Day? Isn't it?</span>
       <span>
@@ -12,4 +16,5 @@ function Tooltip({ position }) {
   );
 }
 
+/* Exporting Tooltip */
 export default Tooltip;

@@ -1,6 +1,9 @@
+/* Importing Styles */
 import styles from "./PositionForm.module.css";
 
+/* Defining PositionForm functional component */
 function PositionForm({ handlePositionInput }) {
+  /* Returning the JSX */
   return (
     <div className={styles.formContainer}>
       <span>Select Tooltip Position</span>
@@ -53,4 +56,5 @@ function PositionForm({ handlePositionInput }) {
   );
 }
 
+/* Exporting PositionForm */
 export default PositionForm;

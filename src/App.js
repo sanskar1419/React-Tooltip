@@ -5,10 +5,18 @@ import Tooltip from "./components/Tooltip/Tooltip";
 
 function App() {
   const [position, setPosition] = useState("bottom");
+  const [tooltipVisibility, setTooltipVisibility] = useState(false);
 
   const handlePositionInput = (e) => {
-    console.log(e.target.value);
     setPosition(e.target.value);
+  };
+
+  const handleMouseIn = () => {
+    setTooltipVisibility(true);
+  };
+
+  const handleMouseLeave = () => {
+    setTooltipVisibility(false);
   };
 
   return (
@@ -16,8 +24,13 @@ function App() {
       <h1>Custom Tooltip</h1>
       <PositionForm handlePositionInput={handlePositionInput} />
       <div className="hoverElementAddTooltipContainer">
-        <div className="hoverElement">
-          Hover Here <Tooltip position={position} />
+        <div
+          className="hoverElement"
+          onMouseEnter={handleMouseIn}
+          onMouseLeave={handleMouseLeave}
+        >
+          Hover Here{" "}
+          {tooltipVisibility ? <Tooltip position={position} /> : null}
         </div>
       </div>
     </div>

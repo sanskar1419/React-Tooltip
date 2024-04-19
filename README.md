@@ -1,6 +1,52 @@
-# Getting Started with Create React App
+# Tooltip
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple tooltip component such that when I hover over a button it shows me a tooltip.
+
+## Vercel Deployment Link
+
+To view the web application go to this link
+
+```bash
+ https://busy-q5bhxcchz-sanskar-guptas-projects.vercel.app
+```
+
+## Tech Stack
+
+**Client:** ReactJs, CSS, HTML, Javascript
+
+## Installation
+
+To install the Busy_Buy, follow these steps:
+
+Clone this repository using the following command:
+
+```
+$ git clone https://github.com/sanskar1419/React-Tooltip.git
+```
+
+Install the required dependencies using the following command:
+
+```
+$ npm install
+```
+
+or
+
+```
+$ npm i
+```
+
+Start the application using the following command:
+
+```
+$ npm start
+```
+
+Open the application in your web browser by visiting the following URL:
+
+```
+$ http://localhost:3000
+```
 
 ## Available Scripts
 
@@ -39,32 +85,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Home
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Home](https://github.com/sanskar1419/Project_Screenshot/blob/master/ReactTooltip/Screenshot%202024-04-19%20123124.png?raw=true)
 
-### Code Splitting
+### Home(Bottom Tooltip)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Home](https://github.com/sanskar1419/Project_Screenshot/blob/master/ReactTooltip/Screenshot%202024-04-19%20123147.png?raw=true)
 
-### Analyzing the Bundle Size
+### Home(Top Tooltip)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Home](https://github.com/sanskar1419/Project_Screenshot/blob/master/ReactTooltip/Screenshot%202024-04-19%20123204.png?raw=true)
 
-### Making a Progressive Web App
+### Home(Right Tooltip)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Home](https://github.com/sanskar1419/Project_Screenshot/blob/master/ReactTooltip/Screenshot%202024-04-19%20123220.png?raw=true)
 
-### Advanced Configuration
+### Home(Left Tooltip)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Home](https://github.com/sanskar1419/Project_Screenshot/blob/master/ReactTooltip/Screenshot%202024-04-19%20123237.png?raw=true)

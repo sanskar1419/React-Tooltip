@@ -1,0 +1,126 @@
+/* Bottom Styling */
+.bottom {
+  width: 175px;
+  position: absolute;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 500;
+  bottom: -124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(21, 21, 156);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.bottom div {
+  width: 0;
+  height: 0;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  border-bottom: 25px solid rgb(21, 21, 156);
+  position: absolute;
+  top: -25px;
+  right: 20px;
+}
+
+/* Top Styling */
+
+.top {
+  width: 175px;
+  position: absolute;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 500;
+  top: -124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(21, 21, 156);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.top div {
+  width: 0;
+  height: 0;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  border-top: 25px solid rgb(21, 21, 156);
+  position: absolute;
+  bottom: -25px;
+  right: 20px;
+}
+
+/* Right Styling */
+
+.right {
+  width: 175px;
+  position: absolute;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 500;
+  right: -210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(21, 21, 156);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.right div {
+  width: 0;
+  height: 0;
+  border-top: 12.5px solid transparent;
+  border-right: 25px solid rgb(21, 21, 156);
+  border-bottom: 12.5px solid transparent;
+  position: absolute;
+  left: -25px;
+}
+
+/* Left Styling */
+
+.left {
+  width: 175px;
+  position: absolute;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 500;
+  left: -210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(21, 21, 156);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.left div {
+  width: 0;
+  height: 0;
+  border-top: 12.5px solid transparent;
+  border-left: 25px solid rgb(21, 21, 156);
+  border-bottom: 12.5px solid transparent;
+  position: absolute;
+  right: -25px;
+}
+
+.position {
+  font-weight: 700;
+  color: orange;
+  text-transform: uppercase;
+}

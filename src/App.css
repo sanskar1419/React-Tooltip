@@ -21,7 +21,7 @@ input[type="radio"] {
   align-items: center;
   justify-content: center;
   border: 2px solid black;
-  width: 50%;
+  width: 90%;
   height: 45vh;
   margin-top: 20px;
 }
@@ -39,8 +39,9 @@ input[type="radio"] {
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.1s ease-in;
+  position: relative;
 }
 
-.hoverElement:hover {
+/* .hoverElement:hover {
   transform: scale(1.01);
-}
+} */

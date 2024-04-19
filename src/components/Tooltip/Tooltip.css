@@ -15,6 +15,8 @@
   background: rgb(21, 21, 156);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
   padding: 5px;
+  animation: slide-in-out-bottom 2s ease-in forwards;
+  transform: translateY(110%);
 }
 
 .bottom div {
@@ -46,6 +48,8 @@
   background: rgb(21, 21, 156);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
   padding: 5px;
+  animation: slide-in-out-top 2s ease-in forwards;
+  transform: translateY(-600%);
 }
 
 .top div {
@@ -77,6 +81,8 @@
   background: rgb(21, 21, 156);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
   padding: 5px;
+  animation: slide-in-out-right 2s ease-in forwards;
+  transform: translateX(110%);
 }
 
 .right div {
@@ -107,6 +113,8 @@
   background: rgb(21, 21, 156);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
   padding: 5px;
+  animation: slide-in-out-left 2s ease-in forwards;
+  transform: translateX(-110%);
 }
 
 .left div {
@@ -123,4 +131,52 @@
   font-weight: 700;
   color: orange;
   text-transform: uppercase;
+}
+
+@keyframes slide-in-out-right {
+  10% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-out-bottom {
+  10% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-out-top {
+  10% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-out-left {
+  10% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

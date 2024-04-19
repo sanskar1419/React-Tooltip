@@ -34,7 +34,6 @@ function PositionForm({ handlePositionInput }) {
             name="position"
             value="bottom"
             onChange={handlePositionInput}
-            checked
           />
           <label for="bottom">Bottom</label>
         </div>

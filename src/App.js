@@ -7,7 +7,7 @@ function App() {
   const [position, setPosition] = useState("bottom");
 
   const handlePositionInput = (e) => {
-    // console.log(e.target.value);
+    console.log(e.target.value);
     setPosition(e.target.value);
   };
 
@@ -17,7 +17,7 @@ function App() {
       <PositionForm handlePositionInput={handlePositionInput} />
       <div className="hoverElementAddTooltipContainer">
         <div className="hoverElement">
-          Hover Here <Tooltip />
+          Hover Here <Tooltip position={position} />
         </div>
       </div>
     </div>

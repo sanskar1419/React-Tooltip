@@ -1,12 +1,11 @@
-import styles from "./Tooltip.module.css";
+import "./Tooltip.css";
 
-function Tooltip() {
+function Tooltip({ position }) {
   return (
-    <div className={styles.left}>
+    <div className={`${position}`}>
       <span>Wonderful Day? Isn't it?</span>
       <span>
-        Hover element positioning{" "}
-        <span className={styles.position}>bottom</span>
+        Hover element positioning <span className="position">{position}</span>
       </span>
       <div></div>
     </div>
